@@ -1,7 +1,7 @@
 const passport = require('passport');
 const GoogleStrategy = require('passport-google-oauth20');
 const FacebookStrategy = require('passport-facebook').Strategy;
-const keys = require('./keys');
+const keys = require('./config');
 const User = require('../models/user');
 
 // serialize user and encrypt into a cookie

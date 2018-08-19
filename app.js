@@ -4,7 +4,7 @@ const cookieSession = require('cookie-session');
 const passport = require('passport');
 const authRouter = require('./routes/auth-routes');
 const profileRouter = require('./routes/profile-routes');
-const keys = require('./config/keys');
+const keys = require('./config/config');
 const app = express();
 const bodyParser = require('body-parser');
 
